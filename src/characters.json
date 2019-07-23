@@ -16,7 +16,7 @@
     },
     {
         "id": 4,
-        "name": "Potato Of Happiness",
+        "name": "Potato Of Happines",
         "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_potatoofhappinesspromo.jpg"
     },
     {
@@ -50,14 +50,28 @@
         "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_sppromo.jpg"
     },
     {
-        "id": 5,
+        "id": 11,
         "name": "Coffee",
         "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_coffeeprint.jpg"
     },
     {
-        "id": 6,
+        "id": 12,
         "name": "Throwing Axe",
         "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_throwingaxepromo.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Beerweb",
+        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_beerweb.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Short Sword",
+        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_shortswordpromo.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Sushiweb",
+        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_sushiweb.jpg"
     }
-
 ]
