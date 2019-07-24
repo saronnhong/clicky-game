@@ -3,10 +3,16 @@
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(190, 186, 186);
-    box-shadow: 4px 4px 0px rgb(50,50,50);
+    
+    
 }
 .card:hover {
     opacity: .7;
     
+    
+}
+
+.mikeland_img{
+    box-shadow: 4px 4px 0px rgb(50,50,50);
 }
 

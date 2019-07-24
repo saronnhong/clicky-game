@@ -48,7 +48,7 @@ class App extends Component {
         <div className="container">
           <div className="row">
             {this.state.characters.map(character => (
-              <a onClick={this.handleIncrement}>
+              <a className="col-lg-2" onClick={this.handleIncrement}>
                 <CharacterCard
                   id={character.id}
                   url={process.env.PUBLIC_URL + '/img/' + character.imageFile}

@@ -52,5 +52,15 @@
     },
     { "imageFile": "42_tvguypromo.jpg", 
         "id": "15" 
+    },
+    { 
+        "imageFile": "31_hotsauceprint.jpg", 
+        "id": "13" },
+    { 
+        "imageFile": "31_spikedclubweb.jpg", 
+        "id": "14" 
+    },
+    { "imageFile": "31_pizzaweb.jpg", 
+        "id": "15" 
     }
   ]
