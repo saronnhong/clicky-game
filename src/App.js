@@ -1,21 +1,15 @@
 import React, { Component } from "react";
 import CharacterCard from "./components/CharacterCard";
-
-// import Counter from "./components/Counter";
 import characters from "./characters.json";
 import Navbar from "./components/Navbar";
-
+// import "./App.css";
 var shuffleCards = (array) => {
   return array.sort(() => Math.random() - 0.5);
 };
 
-
 var clickedArray = [];
 class App extends Component {
-
-
   state = {
-    // count: 0
     characters,
     count: 0,
     highScore: 0,
@@ -30,7 +24,7 @@ class App extends Component {
         }
         this.setState({ count: 0 });
         array.length=0;
-        alert("You Lose!");
+        alert("You Lose! You scored " + this.state.count);
         return;
       } 
     }
@@ -41,16 +35,8 @@ class App extends Component {
 
   handleIncrement = (event) => {
     const targetId = event.target.id;
-    console.log(targetId);
-    // clickedArray.push(targetId);
-    console.log(clickedArray);
     this.checkIfClicked(targetId, clickedArray);
-    // this.setState({ count: this.state.count + 1 });
-    // shuffleCards(characters);
   };
-
-
-
 
   render() {
     return (
