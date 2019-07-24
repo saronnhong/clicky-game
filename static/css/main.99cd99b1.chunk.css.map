@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,MACI,UACJ,CAFA,WACI,UACJ,CACA,MACI,UAAY,CACZ,iBACJ","file":"main.99cd99b1.chunk.css","sourcesContent":["#scoreText {\n    color: white;\n}\n#nav1 {    \n    opacity: 0.9; \n    margin-bottom: 5px;  \n}"]}
