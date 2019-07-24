@@ -5,38 +5,58 @@ import CharacterCard from "./components/CharacterCard";
 import characters from "./characters.json";
 import Navbar from "./components/Navbar";
 
-class App extends Component {
-  // removeFriend = id => {
-  //   // Filter this.state.friends for friends with an id not equal to the id being removed
-  //   const friends = this.state.friends.filter(friend => friend.id !== id);
-  //   // Set this.state.friends equal to the new friends array
-  //   this.setState({ friends });
-  // };
+var shuffleCards = (array) => {
+  return array.sort(() => Math.random() - 0.5);
+};
 
-  // Setting the initial state of the Counter component
+
+var clickedArray = [];
+class App extends Component {
+
+
   state = {
     // count: 0
     characters,
-    count: 0
+    count: 0,
+    highScore: 0,
+    id: null
   };
 
-  // handleIncrement increases this.state.count by 1
-  handleIncrement = () => {
-    // We always use the setState method to update a component's state
+  checkIfClicked = (num, array) => {
+    for (let i = 0; i < array.length; i++) {
+      if (num === array[i]) {
+        if(this.state.count > this.state.highScore){
+          this.setState({ highScore: this.state.count});
+        }
+        this.setState({ count: 0 });
+        array.length=0;
+        alert("You Lose!");
+        return;
+      } 
+    }
     this.setState({ count: this.state.count + 1 });
+    array.push(num);
+    shuffleCards(characters);
+  }
+
+  handleIncrement = (event) => {
+    const targetId = event.target.id;
+    console.log(targetId);
+    // clickedArray.push(targetId);
+    console.log(clickedArray);
+    this.checkIfClicked(targetId, clickedArray);
+    // this.setState({ count: this.state.count + 1 });
+    // shuffleCards(characters);
   };
 
-  shuffleCards = (array) => {
-    array.sort(() => Math.random() - 0.5);
-  }
+
+
 
   render() {
     return (
       <div>
-        <Navbar score={this.state.count}/>
+        <Navbar score={this.state.count} highScore={this.state.highScore}/>
         <div className="container">
-          {/* <p className="card-text">Score: {this.state.count}</p> */}
-
           <div className="row">
             {this.state.characters.map(character => (
               <a onClick={this.handleIncrement}>

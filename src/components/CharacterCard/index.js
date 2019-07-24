@@ -5,7 +5,7 @@ function CharacterCard(props) {
     return (
         <div className="card">
             <div className="img-container">
-                <img alt={props.id} src={props.url} width="200px" />
+                <img id={props.id} src={props.url} width="200px" alt="mikeland_img"/>
             </div>
            
         </div>
