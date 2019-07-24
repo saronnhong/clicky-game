@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,MACI,UAAW,CACX,kBAAmB,CACnB,kBAAmB,CACnB,oBAAgC,CAChC,4BACJ,CACA,YACI,UAEJ,CAVA,WACI,UACJ,CACA,MACI,UAAY,CACZ,iBACJ","file":"main.b97faf64.chunk.css","sourcesContent":["#scoreText {\n    color: white;\n}\n#nav1 {    \n    opacity: 0.9; \n    margin-bottom: 5px;  \n}"]}
