@@ -5,11 +5,9 @@ function CharacterCard(props) {
     return (
         <div className="card">
             <div className="img-container">
-                <img alt={props.name} src={props.image} width="200px" />
+                <img alt={props.id} src={props.url} width="200px" />
             </div>
-            <div className="content">
-                <strong>Name:</strong> {props.name}
-            </div>
+           
         </div>
     );
 }

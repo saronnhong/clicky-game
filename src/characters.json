@@ -1,77 +1,56 @@
 [
-    {
-        "id": 1,
-        "name": "Rainbros",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_rainbbrosiipromo.jpg"
+    { 
+        "imageFile": "31_beerweb.jpg", 
+        "id": "1" 
     },
-    {
-        "id": 2,
-        "name": "Jhost",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_jhostvpromo.jpg"
+    { 
+        "imageFile": "31_coffeeprint.jpg", 
+        "id": "2" 
     },
-    {
-        "id": 3,
-        "name": "TV Guy",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_tvguypromo.jpg"
+    { 
+        "imageFile": "31_shortswordpromo.jpg", 
+        "id": "3" 
     },
-    {
-        "id": 4,
-        "name": "Potato Of Happines",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_potatoofhappinesspromo.jpg"
+    { 
+        "imageFile": "31_sushiweb.jpg", 
+        "id": "4" },
+    { 
+        "imageFile": "42_boxopromo.jpg", 
+        "id": "5" 
     },
-    {
-        "id": 5,
-        "name": "If I Were The Moon",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_moonpromo.jpg"
+    { "imageFile": "42_cursedgarypromo.jpg", 
+        "id": "6" 
     },
-    {
-        "id": 6,
-        "name": "Rocket Bird",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_rocketbirdpromo.jpg"
+    { 
+        "imageFile": "42_jhostvpromo.jpg", 
+        "id": "7" 
     },
-    {
-        "id": 7,
-        "name": "Cursed Gary",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_cursedgarypromo.jpg"
+    { 
+        "imageFile": "42_moonpromo.jpg", 
+        "id": "8" 
     },
-    {
-        "id": 8,
-        "name": "Skully",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_skully1promo.jpg"
+    { 
+        "imageFile": "42_potatoofhappinesspromo.jpg", 
+        "id": "9" 
     },
-    {
-        "id": 9,
-        "name": "Boxo",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_boxopromo.jpg"
+    { 
+        "imageFile": "42_rainbbrosiipromo.jpg", 
+        "id": "10" },
+    { 
+        "imageFile": "42_rocketbirdpromo.jpg", 
+        "id": "11" 
     },
-    {
-        "id": 10,
-        "name": "SP",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/42_sppromo.jpg"
+    { "imageFile": "42_skullguypromo.jpg", 
+        "id": "12" 
     },
-    {
-        "id": 11,
-        "name": "Coffee",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_coffeeprint.jpg"
+    { 
+        "imageFile": "42_skully1promo.jpg", 
+        "id": "13" },
+    { 
+        "imageFile": "42_sppromo.jpg", 
+        "id": "14" 
     },
-    {
-        "id": 12,
-        "name": "Throwing Axe",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_throwingaxepromo.jpg"
-    },
-    {
-        "id": 13,
-        "name": "Beerweb",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_beerweb.jpg"
-    },
-    {
-        "id": 11,
-        "name": "Short Sword",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_shortswordpromo.jpg"
-    },
-    {
-        "id": 12,
-        "name": "Sushiweb",
-        "image": "http://www.sirmikeofmitchell.com/files/gimgs/31_sushiweb.jpg"
+    { "imageFile": "42_tvguypromo.jpg", 
+        "id": "15" 
     }
-]
+  ]
