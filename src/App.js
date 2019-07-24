@@ -3,6 +3,7 @@ import CharacterCard from "./components/CharacterCard";
 import characters from "./characters.json";
 import Navbar from "./components/Navbar";
 // import "./App.css";
+
 var shuffleCards = (array) => {
   return array.sort(() => Math.random() - 0.5);
 };
@@ -24,6 +25,7 @@ class App extends Component {
         }
         this.setState({ count: 0 });
         array.length=0;
+        
         alert("You Lose! You scored " + this.state.count);
         return;
       } 
@@ -41,6 +43,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        
         <Navbar score={this.state.count} highScore={this.state.highScore}/>
         <div className="container">
           <div className="row">
