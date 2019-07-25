@@ -25,7 +25,7 @@ class App extends Component {
         }
         this.setState({ count: 0 });
         array.length=0;
-        
+       
         alert("You Lose! You scored " + this.state.count);
         return;
       } 
@@ -58,6 +58,7 @@ class App extends Component {
           </div>
         </div>
       </div>
+
     )
   }
 }
