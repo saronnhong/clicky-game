@@ -14,7 +14,8 @@ class App extends Component {
     characters,
     count: 0,
     highScore: 0,
-    id: null
+    id: null,
+    endGame: false
   };
 
   checkIfClicked = (num, array) => {
@@ -25,8 +26,8 @@ class App extends Component {
         }
         this.setState({ count: 0 });
         array.length=0;
-       
-        alert("You Lose! You scored " + this.state.count);
+        // this.setState({endGame: "Game Over!"})
+        alert("Game Over! You scored " + this.state.count + ". Please try again.");
         return;
       } 
     }
@@ -40,21 +41,22 @@ class App extends Component {
     this.checkIfClicked(targetId, clickedArray);
   };
 
+
   render() {
     return (
       <div>
         
-        <Navbar score={this.state.count} highScore={this.state.highScore}/>
+        <Navbar score={this.state.count} highScore={this.state.highScore} endGame={this.state.endGame}/>
         <div className="container">
           <div className="row">
-            {this.state.characters.map(character => (
-              <a className="col-lg-2" onClick={this.handleIncrement}>
-                <CharacterCard
-                  id={character.id}
-                  url={process.env.PUBLIC_URL + '/img/' + character.imageFile}
-                />
-              </a>
-            ))}
+              {this.state.characters.map(character => (
+               <a className="col-lg-2" onClick={this.handleIncrement}>
+                 <CharacterCard
+                   id={character.id}
+                   url={process.env.PUBLIC_URL + '/img/' + character.imageFile}
+                 />
+               </a>
+             ))} 
           </div>
         </div>
       </div>
